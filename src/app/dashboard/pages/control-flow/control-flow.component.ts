@@ -8,7 +8,8 @@ import { Component, signal } from '@angular/core';
 export default class ControlFlowComponent {
 
   public showContect = signal(false);
-
+  public frameworks = signal( ['Angular', 'React', 'Vue','Svelte'] );
+  public frameworks2 = signal( []);
   public toggleContent() {
     this.showContect.update(value => !value);
   }

@@ -7,7 +7,7 @@ import { Component, Input } from '@angular/core';
   standalone: true,
   template: `
   
-<section [ngClass]="['w-full', cssClass]">
+  <section [ngClass]="['w-full', cssClass ]">
   <ng-content></ng-content>
 </section>
 
